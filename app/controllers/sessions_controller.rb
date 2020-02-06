@@ -4,7 +4,7 @@ class SessionsController < ApplicationController
     end
 
     def home
-      render :home
+
     end
 
       def create
