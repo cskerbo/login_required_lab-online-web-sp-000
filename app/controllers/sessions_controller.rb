@@ -7,8 +7,8 @@ class SessionsController < ApplicationController
     end
 
       def create
-        if params[:username].nil? || params[:username].present?
-          session[:username] = params[:username]
+        if params[:name].nil? || params[:name].present?
+          session[:name] = params[:name]
           redirect_to '/new'
         else
           redirect_to '/home'
