@@ -1,8 +1,10 @@
 class SessionsController < ApplicationController
 
     def new
-          # nothing to do here!
-      end
+    end
+
+    def home
+    end
 
       def create
         if params[:username] != nil && params[:username].present?
